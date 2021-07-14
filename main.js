@@ -128,6 +128,7 @@ document.getElementById('inputfile')
 	      }					
           document.getElementById('fileLoaded').innerHTML="Now, please, set desired parameters and hit 'Calculate!' button.";
 			fr.readAsText(this.files[0]); 
+	showonlyID('g2controls');
 		}) 
 
 
